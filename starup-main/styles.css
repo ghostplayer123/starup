@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8bc34a; /* Light gray background */
+}
+
+header {
+    background-color: #60b103; /* Greenish background for header */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50; /* Green button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #8bc34a; /* Greenish background for footer */
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-image: linear-gradient(to bottom, #8bc34a, #f2f2f2);
+    background-size: 100% 600px;
+    background-position: 0% 100%;
+}
+
+.hero-image {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured li {
+    margin: 20px;
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.featured img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.plow{
+    width: 300px;
+    height: 300px;
+}
